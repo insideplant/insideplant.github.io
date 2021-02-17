@@ -1,3 +1,122 @@
-.title {
-    color: #02ccba;
-  }
+.container {
+  width: 1170px;
+  margin: 0 auto;  
+}
+
+header {
+  height: 85px;
+  width: 100%;
+  background-color: white;
+}
+
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+}
+
+.header-right a {
+ float: left;
+ line-height: 65px;
+ padding: 10px 25px;
+ color: white;
+ display: block;
+ border-radius: 4px;
+ background-color: black;
+}
+
+.question {
+  margin-right: 10px;
+}
+
+.top-wrapper {
+  background-image: url(img/drumlesson.jpg);
+  opacity: 0.8;
+  background-size: cover;
+  height: 600px;
+  border-radius: 5px;
+}
+
+.top-wrapper h1 {
+  color:white;  
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  color:white;
+}
+
+.flex-list {
+  display: flex;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.flex-list li {
+  flex: auto;
+  border-radius: 4px;
+  margin-right: 10px;
+  height: 40px;
+  width: 80px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.li1 {
+  background-color:white;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.lessons {
+  padding-top: 60px;
+}
+
+.lesson {
+  float: left;
+  width: 50%
+}
+
+.text-contents {
+  width:80%;
+  display: inline-block;
+  color: #b3aeb5;
+}
+
+.clear {
+  clear: left;
+}
+
+footer {
+  height: 85px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: black;
+  border-top:1px solid #eee;
+}
+
+.footer-left img {
+  width: 120px ;
+  border-radius: 4px;
+  float: left;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-right a {
+
+  color: white;
+}
+
